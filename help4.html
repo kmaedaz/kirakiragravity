@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=4.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script type="text/javascript" src="./js/enchant.min.js"></script>
+
+    <script type="text/javascript" src="./js/help4.js"></script>
+   <link rel='stylesheet' href="./css/base.css" type='text/css' media='all' />
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+	<script>
+	if ('object' === typeof window.onorientationchange) {
+	  window.addEventListener("orientationchange", function () {
+		//　
+	  	setTimeout(function(){
+	    if (window.innerHeight > window.innerWidth) {
+	      // ポートレイト
+			 obj=document.getElementById("rotate_alart");
+			 obj.style.display = "none";
+			 obj=document.getElementById("enchant-stage");
+			 obj.style.display = "block";
+	    } else {
+	      // ランドスケープ
+			 obj=document.getElementById("rotate_alart");
+			 obj.style.display = "block";
+			 //document.getElementById("rotate_alert_text").textContent ="画面の縦横の機能をOFFにして下さい";
+			 obj.style.display = "block";
+			 obj=document.getElementById("enchant-stage");
+			 obj.style.display = "none";
+	    };
+		},500);
+	  }, false);
+	}
+	</script>
+
+</head>
+<body>
+<div id="rotate_alart" style="display:none">
+ <div class="rotate_alert_mes" style="width:100%;margin:0 auto 0 auto;vertical-align: middle;top:50%; "><div id="rotate_alert_text">画面の回転をロックしてください</div></div>
+</div>
+</body>
+</html>

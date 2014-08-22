@@ -1,0 +1,27 @@
+body {
+ background-color: #000000;
+ margin:0 auto 0 auto;  /* HTMLで設定したdiv#gameをセンタリング */
+ overflow-x: hidden;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+   #enchant-stage{
+       position:absolute;
+       left : -webkit-calc(50% - (418px / 2)) ;
+       left : calc(50% - (418px / 2)) ;
+   }
+}
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+   #enchant-stage{
+       position:absolute;
+       left : -webkit-calc(50% - (517px / 2)) ;
+       left : calc(50% - (517px / 2)) ;
+   }
+}
+
+
+.rotate_alert_mes{
+	color: #000000;
+	background-color: #668800;
+	font-size: 64px;
+}

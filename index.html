@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=Edge">
+	<script>
+	if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0) {
+		    document.write('<meta name="viewport" content="width=device-width, initial-scale=0.5,minimum-scale=0.5, maximum-scale=0.5, user-scalable=yes">');
+		}else{
+		    document.write('<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=yes">');
+		}
+
+	if ('object' === typeof window.onorientationchange) {
+	  window.addEventListener("orientationchange", function () {
+		//　
+	  	setTimeout(function(){
+	    if (window.innerHeight > window.innerWidth) {
+	      // ポートレイト
+			 obj=document.getElementById("disp");
+			 obj.style.display = "none";
+			 obj=document.getElementById("enchant-stage");
+			 obj.style.display = "block";
+	    } else {
+	      // ランドスケープ
+			 obj=document.getElementById("disp");
+			 obj.style.display = "block";
+			 obj=document.getElementById("enchant-stage");
+			 obj.style.display = "none";
+	    };
+		},500);
+	  }, false);
+
+	}
+
+	</script>
+
+	<!-- アドレスバーを上にあげる -->
+	<script type="text/javascript">
+	window.onload = function() {
+		setTimeout(scrollTo, 50, 0, 1);
+	}
+	</script>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script type="text/javascript" src="./js/enchant.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <link rel='stylesheet' href="./css/base.css" type='text/css' media='all' />
+    <script type="text/javascript" src="./js/game_config.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</head>
+<body>
+
+
+<div id="rotate_alart" style="display:none">
+ <div class="rotate_alert_mes" style="width:100%;margin:0 auto 0 auto;vertical-align: middle;top:50%; "><div id="rotate_alert_text">画面の回転をロックして、リロードしてください。</div></div>
+</div>
+
+</body>
+</html>

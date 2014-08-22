@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="9" height="16" tilewidth="120" tileheight="120" backgroundcolor="#ecebde">
+ <tileset firstgid="1" name="k" tilewidth="120" tileheight="120">
+  <image source="images/120px/k.png" width="120" height="120"/>
+  <tile id="0">
+   <properties>
+    <property name="1" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="co01" tilewidth="120" tileheight="120">
+  <image source="images/120px/co01.png" width="120" height="120"/>
+  <tile id="0">
+   <properties>
+    <property name="c0" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="co02" tilewidth="120" tileheight="120">
+  <image source="images/120px/co02.png" width="120" height="120"/>
+  <tile id="0">
+   <properties>
+    <property name="co02" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="co03" tilewidth="120" tileheight="120">
+  <image source="images/120px/co03.png" width="120" height="120"/>
+  <tile id="0">
+   <properties>
+    <property name="co03" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="co04" tilewidth="120" tileheight="120">
+  <image source="images/120px/co04.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="6" name="cr01" tilewidth="120" tileheight="120">
+  <image source="images/120px/cr01.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="7" name="li01" tilewidth="120" tileheight="120">
+  <image source="images/120px/li01.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="8" name="li02" tilewidth="120" tileheight="120">
+  <image source="images/120px/li02.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="9" name="t01" tilewidth="120" tileheight="120">
+  <image source="images/120px/t01.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="10" name="t02" tilewidth="120" tileheight="120">
+  <image source="images/120px/t02.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="11" name="t03" tilewidth="120" tileheight="120">
+  <image source="images/120px/t03.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="12" name="t04" tilewidth="120" tileheight="120">
+  <image source="images/120px/t04.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="13" name="li02_l" tilewidth="120" tileheight="120">
+  <image source="images/120px/li02_l.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="14" name="li02_r" tilewidth="120" tileheight="120">
+  <image source="images/120px/li02_r.png" width="120" height="120"/>
+ </tileset>
+ <layer name="タイル・レイヤー1" width="9" height="16">
+  <data encoding="csv">
+8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,
+1,5,4,1,1,8,9,4,1,
+1,8,12,3,2,3,1,1,1,
+1,1,5,4,5,9,8,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer name="タイル・レイヤー 2" width="9" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

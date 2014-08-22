@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="9" height="16" tilewidth="120" tileheight="120">
+ <tileset firstgid="0" name="k" tilewidth="120" tileheight="120">
+  <image source="images/120px/k.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="1" name="co01" tilewidth="120" tileheight="120">
+  <image source="images/120px/co01.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="2" name="co02" tilewidth="120" tileheight="120">
+  <image source="images/120px/co02.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="3" name="co03" tilewidth="120" tileheight="120">
+  <image source="images/120px/co03.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="4" name="co04" tilewidth="120" tileheight="120">
+  <image source="images/120px/co04.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="5" name="cr01" tilewidth="120" tileheight="120">
+  <image source="images/120px/cr01.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="6" name="li01" tilewidth="120" tileheight="120">
+  <image source="images/120px/li01.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="7" name="li02" tilewidth="120" tileheight="120">
+  <image source="images/120px/li02.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="8" name="t01" tilewidth="120" tileheight="120">
+  <image source="images/120px/t01.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="9" name="t02" tilewidth="120" tileheight="120">
+  <image source="images/120px/t02.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="10" name="t03" tilewidth="120" tileheight="120">
+  <image source="images/120px/t03.png" width="120" height="120"/>
+ </tileset>
+ <tileset firstgid="11" name="t04" tilewidth="120" tileheight="120">
+  <image source="images/120px/t04.png" width="120" height="120"/>
+ </tileset>
+ <layer name="タイル・レイヤー1" width="9" height="16">
+  <data encoding="csv">
+</data>
+ </layer>
+</map>
